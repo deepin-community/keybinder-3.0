@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/keybinder-3.0-v?(\d\S*)\.tar\.gz/keybinder-3.0-$1\.tar\.gz/ \
+  https://github.com/engla/keybinder/tags .*/keybinder-3.0-v?(\d\S*)\.tar\.gz

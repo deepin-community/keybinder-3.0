@@ -1,0 +1,41 @@
+keybinder-3.0 (0.3.2-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+
+  [ Andreas Beckmann ]
+  * Ship README.rst.  (Closes: #887344)
+
+  [ Ondřej Nový ]
+  * d/control: Remove ancient X-Python-Version field
+  * d/copyright: Use https protocol in Format field
+  * d/changelog: Remove trailing whitespaces
+  * d/control: Set Vcs-* to salsa.debian.org
+
+  [ Paul Gevers ]
+  * Fix FTBFS by not referencing documents that were empty (Closes:
+    #939951)
+
+ -- Paul Gevers <elbrus@debian.org>  Fri, 11 Dec 2020 21:25:52 +0100
+
+keybinder-3.0 (0.3.2-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #886199, LP: #1683560).
+  * Bump Standards-Version to 4.1.3, no changes.
+  * libkeybinder-3.0-dev depends on the typelib package.
+  * Build depend on gnome-common.
+  * Update symbols file for new API.
+
+ -- Andrew Starr-Bochicchio <asb@debian.org>  Tue, 02 Jan 2018 22:31:16 -0500
+
+keybinder-3.0 (0.3.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.6, no changes.
+
+ -- Andrew Starr-Bochicchio <asb@debian.org>  Sun, 08 Nov 2015 13:28:03 -0500
+
+keybinder-3.0 (0.3.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #698638).
+
+ -- Andrew Starr-Bochicchio <asb@debian.org>  Sun, 09 Mar 2014 11:43:30 -0400
